@@ -9,7 +9,7 @@ function Experience() {
     {
       company: "QuickGick",
       title: "Full Stack Developer",
-      duration: "2023 - Present",
+      duration: "2025 - Present",
       icon: <DiCode className="experience-icon" />,
       points: [
         "Building web applications with MERN stack",
