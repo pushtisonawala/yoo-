@@ -61,14 +61,14 @@ function Experience() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading text-center mb-5 fade-in">
+        <h1 className="project-heading text-center mb-5 animate-fade-in">
           My Professional <strong className="purple">Experience</strong>
         </h1>
         
         <Row className="justify-content-center">
           {experiences.map((exp, index) => (
             <Col md={6} key={index} className="mb-4">
-              <div className={`experience-card animate-in`}>
+              <div className={`experience-card animate-slide-${index % 2 ? 'right' : 'left'}`}>
                 <div className="experience-header" style={{ borderColor: exp.color }}>
                   <span className="icon-wrapper">{exp.icon}</span>
                   <div className="title-wrapper">
@@ -94,7 +94,7 @@ function Experience() {
         <Row className="justify-content-center">
           {perks.map((perk, index) => (
             <Col md={3} sm={6} key={index} className="mb-4">
-              <div className="perk-card">
+              <div className="perk-card animate-fade-up" style={{ animationDelay: `${index * 0.1}s` }}>
                 <div className="perk-icon">
                   {perk.icon}
                 </div>
