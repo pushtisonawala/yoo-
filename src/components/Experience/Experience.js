@@ -22,7 +22,7 @@ function Experience() {
     {
       company: "DoconRx",
       title: "Frontend Developer",
-      duration: "2022 - 2023",
+      duration: "2025 - Present",
       icon: <DiReact className="experience-icon" />,
       points: [
         "Building React.js applications",
