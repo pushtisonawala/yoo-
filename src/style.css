@@ -762,3 +762,208 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------- */
+/* Experience */
+/* --------- */
+
+.experience-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.experience-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 2px solid;
+}
+
+.title-wrapper h3 {
+  font-size: 1.8em;
+  margin-bottom: 5px;
+}
+
+.title-wrapper h5 {
+  font-size: 1.2em;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.duration {
+  color: #8892b0;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.experience-points {
+  padding: 20px;
+}
+
+.experience-points li {
+  margin-bottom: 12px;
+  color: #8892b0;
+}
+
+.experience-icon {
+  font-size: 2.5em;
+  color: var(--imp-text-color);
+}
+
+.experience-header h3 {
+  color: white;
+  margin-bottom: 5px;
+  font-size: 1.5em;
+}
+
+.experience-header h5 {
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.experience-header p {
+  color: #8892b0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.experience-points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-points li {
+  color: #8892b0;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.experience-points li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--imp-text-color);
+}
+
+/* --------- */
+/* Why Hire Me */
+/* --------- */
+
+.perk-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.perk-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.perk-icon {
+  font-size: 2.5em;
+  color: var(--imp-text-color);
+  margin-bottom: 15px;
+}
+
+.perk-card h3 {
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.perk-card p {
+  color: #8892b0;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+/* --------- */
+/* Contact */
+/* --------- */
+
+.contact-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
+.contact-content {
+  padding: 30px 0;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 30px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(199, 112, 240, 0.2);
+  height: 100%;
+}
+
+.contact-card h3 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  padding: 12px !important;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.15) !important;
+  box-shadow: none !important;
+  border-color: var(--imp-text-color) !important;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: var(--imp-text-color);
+}
+
+@media (max-width: 767px) {
+  .contact-info {
+    margin-top: 30px;
+  }
+}
