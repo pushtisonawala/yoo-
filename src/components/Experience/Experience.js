@@ -68,7 +68,7 @@ function Experience() {
         <Row className="justify-content-center">
           {experiences.map((exp, index) => (
             <Col md={6} key={index} className="mb-4">
-              <div className={`experience-card slide-in-${index % 2 ? 'right' : 'left'}`}>
+              <div className={`experience-card animate-in`}>
                 <div className="experience-header" style={{ borderColor: exp.color }}>
                   <span className="icon-wrapper">{exp.icon}</span>
                   <div className="title-wrapper">
