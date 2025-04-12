@@ -205,6 +205,27 @@ button:focus {
   width: 100%;
 }
 
+/* Custom Navbar */
+.custom-navbar {
+  min-height: 80px;
+  padding: 0.5rem 1rem;
+}
+
+.navbar .logo {
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .custom-navbar {
+    min-height: 70px;
+  }
+  
+  .navbar .logo {
+    width: 80px !important;
+    margin: 5px 0 !important;
+  }
+}
+
 /* --------- */
 /* Home section */
 /* --------- */
