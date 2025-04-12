@@ -73,8 +73,8 @@ function Experience() {
                   <span className="icon-wrapper">{exp.icon}</span>
                   <div className="title-wrapper">
                     <h3 style={{ color: exp.color }}>{exp.company}</h3>
-                    <h5>{exp.title}</h5>
-                    <p className="duration">{exp.duration}</p>
+                    <h5 style={{ color: "#ffffff" }}>{exp.title}</h5>
+                    <p style={{ color: "#E6E6FA" }}>{exp.duration}</p>
                   </div>
                 </div>
                 <ul className="experience-points">

@@ -19,7 +19,7 @@ function Projects() {
           My Recent <strong className="purple">Works</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few personal projects I've worked on recently.
+          Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -27,7 +27,7 @@ function Projects() {
               imgPath={chatterlyImg}
               isBlog={false}
               title="Chatterly"
-              description="A real-time chat application built using React, Express, and Socket.IO. Users can engage in public and private messaging with a smooth UI."
+              description="Real-time chat application featuring public and private messaging, AI-powered chat summary generation, and intuitive UI for seamless communication."
               ghLink="https://github.com/pushtisonawala/chat-app"
               demoLink="https://chat-app-cyan-eta-44.vercel.app/"
             />
@@ -38,7 +38,7 @@ function Projects() {
               imgPath={ecomineImg}
               isBlog={false}
               title="Ecomine"
-              description="An eco-solution for tracking and rewarding afforestation efforts using carbon credits. Built with React, Express, and a dynamic backend logic."
+              description="Eco-solution platform for tracking and rewarding afforestation efforts using carbon credits system."
               ghLink="https://github.com/pushtisonawala/EcoMine"
               demoLink="https://eco-mine.vercel.app/"
             />
@@ -49,7 +49,7 @@ function Projects() {
               imgPath={planisphereImg}
               isBlog={false}
               title="Planisphere"
-              description="A productivity planner for daily, weekly, and project-based timelines. Built using React and Tailwind for smooth, user-friendly experience."
+              description="Productivity planner featuring daily, weekly, and project-based timeline management with intuitive interface."
               ghLink="https://github.com/pushtisonawala/Planisphere"
               demoLink="https://planisphere.vercel.app/"
             />
@@ -60,7 +60,7 @@ function Projects() {
               imgPath={blogifyImg}
               isBlog={false}
               title="Blogify"
-              description="A blogging platform where users can write, update, and delete posts. Built using React, Node.js, Express, and EJS templating."
+              description="Comprehensive blogging platform with full CRUD operations for managing posts and user content."
               ghLink="https://github.com/pushtisonawala/Blogify"
               demoLink="https://blogify-smoky-six.vercel.app/"
             />
@@ -71,7 +71,7 @@ function Projects() {
               imgPath={expenseTrackerImg}
               isBlog={false}
               title="Expense Tracker"
-              description="Track your expenses and visualize spending patterns using React and Chart.js. Simple and intuitive design to help manage finances."
+              description="Personal finance management tool with expense tracking and visual spending pattern analysis."
               ghLink="https://github.com/pushtisonawala/ExpenseTracker"
               demoLink="https://expense-tracker-gray-zeta.vercel.app/"
             />
